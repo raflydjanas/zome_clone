@@ -1,10 +1,12 @@
+import CallList from "@/components/CallList";
 import React from "react";
 
 const RecordingsPage = () => {
   return (
-    <div>
-      <h1>Recordings</h1>
-    </div>
+    <main className="flex size-full flex-col gap-10 text-white">
+      <h1 className="text-2xl font-bold">Recordings</h1>
+      <CallList type="recordings" />
+    </main>
   );
 };
 
